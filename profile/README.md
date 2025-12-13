@@ -68,14 +68,9 @@ I focus on:
 
 ## Featured Projects
 
-### 1. **Next-gen Dev Toolkit**
-Fast, modular tools for developers building production-grade systems.
+### 1. **forge-rs**
+Fast, local CLI written in Rust for validating, inspecting, and converting CSV & JSON datasets using file-based schemas.
 
-### 2. **Cloud-native Starter Kit**
-Templates and infra patterns for scalable apps on modern cloud providers.
-
-### 3. **High-performance REST and RPC API Framework**
-Focus on developer experience and raw execution speed.
 
 ---
 
