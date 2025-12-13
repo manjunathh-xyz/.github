@@ -47,13 +47,14 @@ I focus on:
 
 <!-- Animated streak -->
 <img src="https://streak-stats.demolab.com/?user=manjunathh-xyz&theme=tokyonight&hide_border=true" height="160"/>
-
+<div align="center">
 <!-- Languages -->
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=manjunathh-xyz&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
-
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manjunathh-xyz&layout=compact&theme=transparent" height="160"/>
+</div>
+<div align="center">
 <!-- GitHub Stats -->
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=manjunathh-xyz&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
-
+<img src="https://github-readme-stats.vercel.app/api?username=manjunathh-xyz" height="160"/>
+</div>
 </div>
 
 ---
