@@ -69,9 +69,11 @@ I focus on:
 
 ## Featured Projects
 
-### 1. **forge-rs**
+### 1. **schemeforge**
 Fast, local CLI written in Rust for validating, inspecting, and converting CSV & JSON datasets using file-based schemas.
 
+### 2. **repopulse**
+GitHub intelligence engine with health scores, insights, badges, cards, website, and official Rust, npm, and Python SDKs.
 
 ---
 
