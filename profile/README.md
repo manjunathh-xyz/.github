@@ -92,7 +92,7 @@ Schema-driven dataset tooling (CSV / JSON / validation / inspection)
 ## 📊 GitHub Metrics
 
 <p align="center">
-  <img src="https://github.com/manjunathh-xyz/.github/github-metrics.svg" />
+  <img src="https://github.com/manjunathh-xyz/.github/blob/main/github-metrics.svg" />
 </p>
 
 
