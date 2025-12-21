@@ -2,7 +2,7 @@ name: Generate GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # daily
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -16,87 +16,39 @@ jobs:
         with:
           token: ${{ secrets.TOKEN }}
 
-          # ─────────────────────────────────────
-          # 👤 Core
-          # ─────────────────────────────────────
+          # Core
           user: manjunathh-xyz
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, activity, repositories, metadata
 
-          # ─────────────────────────────────────
-          # 📊 Statistics
-          # ─────────────────────────────────────
+          # Statistics
           plugin_statistics: yes
 
-          # ─────────────────────────────────────
-          # 🧠 Languages
-          # ─────────────────────────────────────
+          # Languages
           plugin_languages: yes
           plugin_languages_indepth: yes
-          plugin_languages_limit: 10
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_analysis_timeout: 15
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
 
-          # ─────────────────────────────────────
-          # 🔥 Activity (commits, PRs, issues, releases)
-          # ─────────────────────────────────────
+          # Activity (safe config)
           plugin_activity: yes
-          plugin_activity_limit: 10
-          plugin_activity_days: 30
-          plugin_activity_filter: issue, pr, release, fork, review
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: issue, pr
 
-          # ─────────────────────────────────────
-          # 📰 Releases
-          # ─────────────────────────────────────
+          # Releases
           plugin_releases: yes
-          plugin_releases_limit: 5
+          plugin_releases_limit: 3
 
-          # ─────────────────────────────────────
-          # 🧩 Achievements
-          # ─────────────────────────────────────
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_display: detailed
-          plugin_achievements_secrets: yes
-
-          # ─────────────────────────────────────
-          # 📅 Isometric Contribution Calendar
-          # ─────────────────────────────────────
+          # Isometric calendar
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
 
-          # ─────────────────────────────────────
-          # 📦 Featured Repositories
-          # ─────────────────────────────────────
+          # Featured repositories (FIXED)
           plugin_repositories: yes
-          plugin_repositories_featured: |
-            schemeforge
-            repopulse
-            kexra
+          plugin_repositories_featured: schemeforge,kexra
 
-          # ─────────────────────────────────────
-          # 🏆 Notable Contributions
-          # ─────────────────────────────────────
-          plugin_notable: yes
-          plugin_notable_filter: stars
-          plugin_notable_from: all
-          plugin_notable_types: commit, pull_request, issue
+          # ❌ Disabled due to GitHub deprecation
+          plugin_achievements: no
 
-          # ─────────────────────────────────────
-          # 🧪 Code Frequency
-          # ─────────────────────────────────────
-          plugin_code: yes
-          plugin_code_lines: 12
-          plugin_code_load: 400
-
-          # ─────────────────────────────────────
-          # 🧠 Topics / Interests
-          # ─────────────────────────────────────
-          plugin_topics: yes
-          plugin_topics_limit: 20
-          plugin_topics_mode: icons
-
-          # ─────────────────────────────────────
-          # 🎯 Output
-          # ─────────────────────────────────────
           filename: github-metrics.svg
