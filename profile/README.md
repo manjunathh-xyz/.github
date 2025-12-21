@@ -109,30 +109,8 @@ Schema-driven dataset tooling (CSV / JSON / validation / inspection)
 ## 🐍 Contribution Graph
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/manjunathh-xyz/manjunathh-xyz/output/snake-dark.svg" />
+  <img src="https://github.com/manjunathh-xyz/.github/blob/output/snake.svg" />
 </p>
-
----
-
-## 📡 Live GitHub Activity
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
-> Auto-updated via GitHub Actions
-
----
-
-## 📰 Recent Releases
-
-<!--START_SECTION:releases-->
-<!--END_SECTION:releases-->
-
----
-
-## 🧪 Latest Commits
-
-<!--START_SECTION:commits-->
-<!--END_SECTION:commits-->
 
 ---
 
