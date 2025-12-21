@@ -106,16 +106,15 @@ Schema-driven dataset tooling (CSV / JSON / validation / inspection)
 
 ---
 
-## 🐍 Contribution Graph (Animated)
+## 🐍 Contribution Graph
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/manjunathh-xyz/manjunathh-xyz/output/snake-dark.svg" />
 </p>
 
 ---
 
 ## 📡 Live GitHub Activity
-
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
