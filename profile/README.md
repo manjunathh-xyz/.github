@@ -88,38 +88,13 @@ Schema-driven dataset tooling (CSV / JSON / validation / inspection)
 - Type-safe
 - Built for real datasets
 
----
 
-### 🔹 RepoPulse  
-GitHub intelligence & analytics engine
-
-- Repo insights
-- Health scoring
-- Badges & metadata
-- OSS-focused design
-
----
-
-### 🔹 Kexra  
-Systems & architecture experimentation lab
-
-- Performance research
-- Abstraction design
-- Internal tooling experiments
-
----
-
-## 📊 GitHub Intelligence Dashboard
+## 📊 GitHub Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=manjunathh-xyz&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="./github-metrics.svg" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manjunathh-xyz&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
----
 
 ## 🏆 Achievements & Traits
 
